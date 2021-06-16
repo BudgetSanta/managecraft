@@ -3,14 +3,14 @@ name = "managecraft"
 version = "0.1.0"
 authors = ["Jared Steiner <steiner.jared1996@gmail.com>"]
 edition = "2018"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+description = "A CLI Utility to communicate with your Minecraft server over the RCON protocol."
+license = "MIT"
 
 [dependencies]
 clap = "3.0.0-beta.2"
 config = "0.11.0"
+directories = "3.0.2"
+futures = { version = "0.3.*" }
 rcon = "0.4.0"
 serde = { version = "1.0.126", features = ["derive"] }
-futures = { version = "0.3.*" }
 tokio = {version = "1", features = ["full"] }
-directories = "3.0.2"

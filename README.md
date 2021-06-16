@@ -1,6 +1,8 @@
 # `managecraft` :building_construction:
 A CLI Utility to communicate with your Minecraft server over the RCON protocol
 
+[![License Badge]][License]
+
 ## Command Line Utility Quick Start
 Use `managecraft --help` or `managecraft <subcommand> --help` for more information about available commands
 
@@ -45,3 +47,6 @@ _This will set the port value to `12345` overwriting default config as well as a
 ```shell
 MANAGECRAFT_PORT=12345 managecraft save-all
 ```
+
+[License]: https://spdx.org/licenses/MIT.html
+[License Badge]: https://img.shields.io/badge/License-MIT-blue.svg
