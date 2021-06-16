@@ -1,2 +1,2 @@
-# minecraft-manage
-Communicate with your MC Server using RCON
+# managecraft
+Communicate with your Minecraft server using RCON
