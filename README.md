@@ -5,7 +5,7 @@ A CLI Utility to communicate with your Minecraft server over the RCON protocol
 Use `managecraft --help` or `managecraft <subcommand> --help` for more information about available commands
 
 ```shell
-$ managecraft say "Hello Server!"
+managecraft say "Hello Server!"
 ```
 _You'll see output of `[Rcon] Hello Server!` in the server log as well as in game_
 
@@ -43,5 +43,5 @@ password="hunter2"
 
 _This will set the port value to `12345` overwriting default config as well as a port value specified in the config file from step 2._
 ```shell
-$ MANAGECRAFT_PORT=12345 managecraft save-all
+MANAGECRAFT_PORT=12345 managecraft save-all
 ```
