@@ -1,7 +1,7 @@
 # `managecraft` :building_construction:
 A CLI Utility to communicate with your Minecraft server over the RCON protocol
 
-[![License Badge]][License]
+[![Build Badge]][Build] [![License Badge]][License]
 
 ## Command Line Utility Quick Start
 Use `managecraft --help` or `managecraft <subcommand> --help` for more information about available commands
@@ -50,3 +50,5 @@ MANAGECRAFT_PORT=12345 managecraft save-all
 
 [License]: https://spdx.org/licenses/MIT.html
 [License Badge]: https://img.shields.io/badge/License-MIT-blue.svg
+[Build]: https://travis-ci.com/jayman888/managecraft
+[Build Badge]: https://travis-ci.com/jayman888/managecraft.svg?branch=master

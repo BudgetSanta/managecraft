@@ -3,6 +3,7 @@ name = "managecraft"
 version = "0.1.0"
 authors = ["Jared Steiner <steiner.jared1996@gmail.com>"]
 edition = "2018"
+repository = "https://github.com/jayman888/managecraft/"
 description = "A CLI Utility to communicate with your Minecraft server over the RCON protocol."
 license = "MIT"
 
