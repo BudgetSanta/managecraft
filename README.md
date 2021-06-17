@@ -48,6 +48,22 @@ _This will set the port value to `12345` overwriting default config as well as a
 MANAGECRAFT_PORT=12345 managecraft save-all
 ```
 
+## Command Usage
+
+### Execute
+_Executes an arbitrary command on the server_
+`execute <command>`
+
+Check out https://minecraft.fandom.com/wiki/Commands for all available commands
+
+### Say
+_Broadcast a message to the server_
+`say <message>` 
+
+### Save All
+_Save the game world_
+`save_all [-f|--flush]` 
+
 [Crates]: https://crates.io/crates/robotconfig
 [Crates Badge]: https://img.shields.io/crates/v/robotconfig
 
