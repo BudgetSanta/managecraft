@@ -52,16 +52,19 @@ MANAGECRAFT_PORT=12345 managecraft save-all
 
 ### Execute
 _Executes an arbitrary command on the server_
+
 `execute <command>`
 
 Check out https://minecraft.fandom.com/wiki/Commands for all available commands
 
 ### Say
 _Broadcast a message to the server_
+
 `say <message>` 
 
 ### Save All
 _Save the game world_
+
 `save_all [-f|--flush]` 
 
 [Crates]: https://crates.io/crates/robotconfig
