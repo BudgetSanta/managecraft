@@ -7,16 +7,12 @@ pub fn parse_opts() -> Opts {
     Opts::parse()
 }
 
-/// Structure to define all command line behaviour
-/// and `--help` output
 #[derive(Clap)]
 pub struct Opts {
     #[clap(subcommand)]
     pub subcmd: SubCommand,
 }
 
-/// Collection of subcommands that can be provided
-/// on the command line
 #[derive(Clap)]
 pub enum SubCommand {
     Execute(Execute),
