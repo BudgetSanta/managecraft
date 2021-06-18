@@ -67,8 +67,8 @@ _Save the game world_
 
 `save_all [-f|--flush]` 
 
-[Crates]: https://crates.io/crates/robotconfig
-[Crates Badge]: https://img.shields.io/crates/v/robotconfig
+[Crates]: https://crates.io/crates/managecraft
+[Crates Badge]: https://img.shields.io/crates/v/managecraft
 
 [Docs]: https://docs.rs/managecraft
 [Docs Badge]: https://docs.rs/managecraft/badge.svg
