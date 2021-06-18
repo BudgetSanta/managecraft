@@ -70,7 +70,7 @@ _Save the game world_
 [Crates]: https://crates.io/crates/robotconfig
 [Crates Badge]: https://img.shields.io/crates/v/robotconfig
 
-[Docs]: https://docs.rs/robotconfig
+[Docs]: https://docs.rs/managecraft
 [Docs Badge]: https://docs.rs/managecraft/badge.svg
 
 [Build]: https://travis-ci.com/jayman888/managecraft
