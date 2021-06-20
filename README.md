@@ -73,8 +73,8 @@ _Save the game world_
 [Docs]: https://docs.rs/managecraft
 [Docs Badge]: https://docs.rs/managecraft/badge.svg
 
-[Build]: https://travis-ci.com/jayman888/managecraft
-[Build Badge]: https://travis-ci.com/jayman888/managecraft.svg?branch=master
+[Build]: https://github.com/jayman888/managecraft/actions/workflows/release.yml
+[Build Badge]: https://github.com/jayman888/managecraft/actions/workflows/release.yml/badge.svg?branch=master
 
 [License]: https://spdx.org/licenses/MIT.html
 [License Badge]: https://img.shields.io/badge/License-MIT-blue.svg
