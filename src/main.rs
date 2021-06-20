@@ -23,17 +23,18 @@ async fn main() -> Result<(), Box<dyn Error>> {
 
     let res = match opts.subcmd {
         SubCommand::Execute(ex) => {
-            log::info!("{}", ex);
+            log::info!("Executing: {}", ex.command);
             client.execute(ex).await?
         }
         SubCommand::Say(s) => {
-            log::info!("{}", s);
+            log::info!("Saying: {}", s.message);
             client.say(s).await?
         }
         SubCommand::SaveAll(s) => {
-            log::info!("{}", s);
+            log::info!("Saving...");
             client.save_all(s).await?
         }
+        SubCommand::Time(t) => todo!(),
     };
 
     if !res.trim().is_empty() {
