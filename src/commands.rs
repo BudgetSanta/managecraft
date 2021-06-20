@@ -13,6 +13,10 @@ pub struct Opts {
     #[clap(short, long)]
     pub quiet: bool,
 
+    /// Prints out debug messages
+    #[clap(short, long)]
+    pub debug: bool,
+
     #[clap(subcommand)]
     pub subcmd: SubCommand,
 }
