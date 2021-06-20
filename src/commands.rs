@@ -9,6 +9,9 @@ pub fn parse_opts() -> Opts {
 
 #[derive(Clap)]
 pub struct Opts {
+    #[clap(short, long)]
+    pub quiet: bool,
+
     #[clap(subcommand)]
     pub subcmd: SubCommand,
 }
