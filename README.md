@@ -60,12 +60,12 @@ Check out https://minecraft.fandom.com/wiki/Commands for all available commands
 ### Say
 _Broadcast a message to the server_
 
-`say <message>` 
+`say <message>`
 
 ### Save All
 _Save the game world_
 
-`save_all [-f|--flush]` 
+`save_all [-f|--flush]`
 
 [Crates]: https://crates.io/crates/managecraft
 [Crates Badge]: https://img.shields.io/crates/v/managecraft
